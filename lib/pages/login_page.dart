@@ -115,9 +115,12 @@ class LoginPage extends StatelessWidget {
                 children: [
                   // google image
                   SquareTile(imagePath: 'lib/images/google.png'),
+                  SizedBox(
+                    height: 25,
+                  ),
 
                   // apple image
-                  SquareTile(imagePath: 'lib/images/apple.jpeg')
+                  SquareTile(imagePath: 'lib/images/facebook.png')
                 ],
               )
             ],

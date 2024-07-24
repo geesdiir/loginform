@@ -12,7 +12,8 @@ class MyButtom extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         margin: const EdgeInsets.symmetric(horizontal: 25.0),
         decoration: BoxDecoration(
-            color: Colors.black, borderRadius: BorderRadius.circular(10)),
+            color: const Color(0xFFE23C3C),
+            borderRadius: BorderRadius.circular(10)),
         child: const Center(
           child: Text(
             "Sing In",
